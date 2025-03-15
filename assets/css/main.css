@@ -536,6 +536,16 @@ h6 {
   font-size: 14px;
   position: relative;
 }
+.footer a {
+  font-size: 14px; /* Pas de grootte aan naar wens */
+  color: var(--default-color); /* Of gebruik een specifieke kleur */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: var(--accent-color);
+}
 
 .footer .footer-newsletter {
   background-color: color-mix(in srgb, var(--default-color), transparent 97%);
